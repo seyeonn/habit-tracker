@@ -36,7 +36,7 @@ footer {
   color: white;
   text-align: center;
   padding: 10px;
-  position: fixed;
+  position:absolute;
   width: 100%;
   bottom: 0;
 }
@@ -53,4 +53,25 @@ input {
 button {
   padding: 8px;
   cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+}
+
+button {
+  padding: 10px;
+  margin: 10px;
 }
