@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import MyPage from './MyPage';
 import TodoList from './TodoList';
-import Topic from './Topic';
+import Main from '../pages/Main';
 
 function Header() {
   return (
@@ -17,7 +17,7 @@ function Header() {
         </header>
 
         <Routes>
-            <Route path="/" element={<Topic />} />
+            <Route path="/" element={<Main />} />
             <Route path="/todoList" element={<TodoList />} />
             <Route path="/myPage" element={<MyPage />} />
         </Routes>
